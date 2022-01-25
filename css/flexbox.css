@@ -34,5 +34,5 @@
     /* flex-direction: column;
     flex-wrap: wrap; isso serve para quebrar a proxima coluna */
     flex-flow: column wrap;
-    height: 255px;
+    height: 254px;
 }
