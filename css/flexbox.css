@@ -1,0 +1,38 @@
+.cabecalhoPrincipal .container { /*começar a alinhar sempre pela tag pai*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*espaço entre os elementos*/
+}
+
+.cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;/*espaçamento em volta*/
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; isso serve para quebrar a proxima coluna */
+    flex-flow: column wrap;
+    height: 255px;
+}
